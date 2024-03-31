@@ -32,7 +32,7 @@ struct TabButton: View {
                     
             }
         }
-        .foregroundColor(isSelect ? .primaryApp : .primaryText )
+        .foregroundColor(isSelect ? .red : .primaryText )
         .frame(minWidth: 0, maxWidth: .infinity)
     }
 }

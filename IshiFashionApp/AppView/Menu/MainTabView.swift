@@ -22,7 +22,11 @@ struct MainTabView: View {
             }
             else if(homeVM.selectTab == 2) {
                 MyCartView()
+            }     
+            else if(homeVM.selectTab == 3) {
+                AccountView()
             }
+            
             
             VStack{
                 
@@ -30,7 +34,7 @@ struct MainTabView: View {
                 
                 HStack{
                     
-                    TabButton(title: "Shop", icon: "store_tab", isSelect: homeVM.selectTab == 0) {
+                    TabButton(title: "Shop", icon: "shop", isSelect: homeVM.selectTab == 0) {
                         
                         print("Button Tab")
                         
@@ -57,6 +61,15 @@ struct MainTabView: View {
                              
                             withAnimation {
                                 homeVM.selectTab = 2
+                            }
+                        }
+                    }
+                    
+                    TabButton(title: "Account", icon: "account_tab", isSelect: homeVM.selectTab == 3) {
+                        DispatchQueue.main.async {
+                             
+                            withAnimation {
+                                homeVM.selectTab = 3
                             }
                         }
                     }

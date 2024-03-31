@@ -77,7 +77,7 @@ struct CartItemRow: View {
                             CartViewModel.shared.serviceCallUpdateQty(cObj: cObj, newQty: cObj.qty + 1)
                         } label: {
                             
-                            Image( "add_green"  )
+                            Image( "plus"  )
                                 .resizable()
                                 .scaledToFit()
                                 .frame(width: 20, height: 20)
@@ -91,7 +91,7 @@ struct CartItemRow: View {
                         
                         Spacer()
                         
-                        Text("$\(cObj.offerPrice ?? cObj.price, specifier: "%.2f" )")
+                        Text("RS\(cObj.offerPrice ?? cObj.price, specifier: "%.2f" )")
                             .font(.customfont(.semibold, fontSize: 20))
                             .foregroundColor(.primaryText)
                     }

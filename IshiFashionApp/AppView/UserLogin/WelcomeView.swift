@@ -10,18 +10,24 @@ import SwiftUI
 struct WelcomeView: View {
     var body: some View {
         ZStack{
-            Image("femalebuy")
+            Image("IshiFashion Splash screen")
                 .resizable()
                 .scaledToFill()
                 .frame(width: .screenWidth, height: .screenHeight)
             
             VStack{
                 Spacer()
+                Image("IshiFashion logo")
+                    .resizable()
+                    .scaledToFit()
+                    .frame(width: 60, height: 60)
+                    .padding(.bottom, 8)
                 
                 NavigationLink {
                        SignInView()
                 } label: {
-                    Text("Get Start").bold()
+                    RoundButton(title: "Get Started") {
+                    }
                 }
 
                
@@ -30,7 +36,7 @@ struct WelcomeView: View {
                     .frame(height: 120)
                 
             }
-            .padding(.horizontal , 20)
+            .padding(.horizontal , 20).padding(.bottom, 60)
         }
         .navigationTitle("")
         .navigationBarBackButtonHidden(true)

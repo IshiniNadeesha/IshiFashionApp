@@ -63,6 +63,8 @@
 		59E7D8682BB94E7400285CD8 /* PromoCodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59E7D8672BB94E7400285CD8 /* PromoCodeView.swift */; };
 		59E7D86A2BB94E9A00285CD8 /* PromoCodeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59E7D8692BB94E9A00285CD8 /* PromoCodeModel.swift */; };
 		59E7D86C2BB94ED100285CD8 /* PromoCodeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59E7D86B2BB94ED100285CD8 /* PromoCodeViewModel.swift */; };
+		59E7D86F2BB97AC400285CD8 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59E7D86E2BB97AC400285CD8 /* AccountView.swift */; };
+		59E7D8722BB97C7300285CD8 /* AccountRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59E7D8712BB97C7300285CD8 /* AccountRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -123,6 +125,8 @@
 		59E7D8672BB94E7400285CD8 /* PromoCodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromoCodeView.swift; sourceTree = "<group>"; };
 		59E7D8692BB94E9A00285CD8 /* PromoCodeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromoCodeModel.swift; sourceTree = "<group>"; };
 		59E7D86B2BB94ED100285CD8 /* PromoCodeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromoCodeViewModel.swift; sourceTree = "<group>"; };
+		59E7D86E2BB97AC400285CD8 /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
+		59E7D8712BB97C7300285CD8 /* AccountRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -181,6 +185,7 @@
 		59E18D912BB85799008160E7 /* AppView */ = {
 			isa = PBXGroup;
 			children = (
+				59E7D86D2BB97ABB00285CD8 /* User */,
 				59E7D8522BB940DC00285CD8 /* My Cart */,
 				59E18DC22BB87C55008160E7 /* Explore */,
 				59E18DBB2BB87978008160E7 /* Menu */,
@@ -244,6 +249,7 @@
 				59E18DEE2BB88A57008160E7 /* SectionTitleAll.swift */,
 				59E18DF02BB88A89008160E7 /* CategoryCell.swift */,
 				59E7D8552BB9421F00285CD8 /* CartItemRow.swift */,
+				59E7D8712BB97C7300285CD8 /* AccountRow.swift */,
 			);
 			path = UiCommon;
 			sourceTree = "<group>";
@@ -302,6 +308,14 @@
 				59E7D8672BB94E7400285CD8 /* PromoCodeView.swift */,
 			);
 			path = "My Cart";
+			sourceTree = "<group>";
+		};
+		59E7D86D2BB97ABB00285CD8 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				59E7D86E2BB97AC400285CD8 /* AccountView.swift */,
+			);
+			path = User;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -414,6 +428,7 @@
 				59E18DD92BB88179008160E7 /* UIKitExtension.swift in Sources */,
 				59E18DE52BB88551008160E7 /* PaymentModel.swift in Sources */,
 				59E7D8642BB9472E00285CD8 /* AddDeliveryAddressView.swift in Sources */,
+				59E7D8722BB97C7300285CD8 /* AccountRow.swift in Sources */,
 				59E18DC82BB87D52008160E7 /* ExploreViewModel.swift in Sources */,
 				59E7D8562BB9421F00285CD8 /* CartItemRow.swift in Sources */,
 				59E18DF12BB88A89008160E7 /* CategoryCell.swift in Sources */,
@@ -428,6 +443,7 @@
 				59E18DDB2BB881D7008160E7 /* ProductCell.swift in Sources */,
 				59E7D8602BB9458800285CD8 /* PaymentViewModel.swift in Sources */,
 				59E7D8512BB9109400285CD8 /* WelcomeView.swift in Sources */,
+				59E7D86F2BB97AC400285CD8 /* AccountView.swift in Sources */,
 				59E18DB62BB86852008160E7 /* MainViewModel.swift in Sources */,
 				59E7D8622BB946FC00285CD8 /* AddPaymentMethodView.swift in Sources */,
 				59E18DDF2BB8827C008160E7 /* ProductDetailView.swift in Sources */,

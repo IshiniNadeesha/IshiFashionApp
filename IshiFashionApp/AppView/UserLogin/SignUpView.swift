@@ -53,33 +53,7 @@ struct SignUpView: View {
                     
                     LineSecureField( title: "Password", placholder: "Enter your password", txt: $mainVM.txtPassword, isShowPassword: $mainVM.isShowPassword)
                         .padding(.bottom, .screenWidth * 0.04)
-                    
-                    VStack {
-                        Text("By continuing you agree to our")
-                            .font(.customfont(.medium, fontSize: 14))
-                            .foregroundColor(.secondaryText)
-                            .frame(minWidth: 0, maxWidth: .infinity, alignment: .leading)
-                        
-                        HStack{
-                            
-                            Text("Terms of Service")
-                                .font(.customfont(.medium, fontSize: 14))
-                                .foregroundColor(.primaryApp)
-                                
-                            
-                            Text(" and ")
-                                .font(.customfont(.medium, fontSize: 14))
-                                .foregroundColor(.secondaryText)
-                                
-                            
-                            Text("Privacy Policy.")
-                                .font(.customfont(.medium, fontSize: 14))
-                                .foregroundColor(.primaryApp)
-                                .frame(minWidth: 0, maxWidth: .infinity, alignment: .leading)
-                                
-                        }
-                        .padding(.bottom, .screenWidth * 0.02)
-                    }
+                
                     
                     
                     RoundButton(title: "Sing Up") {

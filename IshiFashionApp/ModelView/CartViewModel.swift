@@ -29,7 +29,7 @@ class CartViewModel: ObservableObject
     @Published var paymentType: Int = 1
     @Published var deliverObj: AddressModel?
     @Published var paymentObj: PaymentModel?
- 
+    @Published var promoObj: PromoCodeModel?
     
     @Published var deliverPriceAmount: String = ""
     @Published var discountAmount: String = ""
@@ -45,7 +45,7 @@ class CartViewModel: ObservableObject
     //MARK: ServiceCall
     
     func serviceCallList(){
-        ServiceCall.post(parameter: [ "delivery_type": deliveryType ], path: Globs.SV_CART_LIST, isToken: true ) { responseObj in
+        ServiceCall.post(parameter: ["promo_code_id": promoObj?.id ?? "", "delivery_type": deliveryType ], path: Globs.SV_CART_LIST, isToken: true ) { responseObj in
             if let response = responseObj as? NSDictionary {
                 if response.value(forKey: KKey.status) as? String ?? "" == "1" {
                     
@@ -130,13 +130,14 @@ class CartViewModel: ObservableObject
                                      "deliver_type": deliveryType,
                                      "payment_type": paymentType,
                                      "pay_id": paymentType == 1 ? "" : "\( paymentObj?.id ?? 0)",
-                                      ], path: Globs.SV_ORDER_PLACE, isToken: true ) { responseObj in
+                                     "promo_code_id": promoObj?.id ?? ""  ], path: Globs.SV_ORDER_PLACE, isToken: true ) { responseObj in
             if let response = responseObj as? NSDictionary {
                 if response.value(forKey: KKey.status) as? String ?? "" == "1" {
                     
                     
                     self.deliverObj = nil
                     self.paymentObj = nil
+                    self.promoObj = nil
                     self.showCheckout = false
                     self.errorMessage = response.value(forKey: KKey.message) as? String ?? "Success"
                     self.showError = true
@@ -171,4 +172,3 @@ class CartViewModel: ObservableObject
     }
     
 }
-

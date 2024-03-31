@@ -9,9 +9,20 @@ import SwiftUI
 
 @main
 struct IshiFashionAppApp: App {
+    @StateObject var mainVM = MainViewModel.shared
     var body: some Scene {
+        
         WindowGroup {
-            SignInView()
+
+            NavigationView {
+                
+                if mainVM.isUserLogin {
+                    MainTabView()
+                }else{
+                    WelcomeView()
+                }
+            }
+            
         }
     }
 }

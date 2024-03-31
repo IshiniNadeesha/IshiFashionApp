@@ -33,7 +33,7 @@ struct SignInView: View {
             ScrollView{
                     
                 VStack(alignment: .leading){
-                    Text( "Get your groceries\nwith nectar")
+                    Text( "GGet your clothes")
                         .font(.customfont(.semibold, fontSize: 26))
                         .foregroundColor(.primaryText)
                         .multilineTextAlignment(.leading)

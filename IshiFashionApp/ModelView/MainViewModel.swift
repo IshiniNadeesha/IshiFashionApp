@@ -20,23 +20,23 @@ class MainViewModel: ObservableObject {
     @Published var isUserLogin: Bool = false
     @Published var userObj: UserModel = UserModel(dict: [:])
     
-    init() {
-        
-        
-        if( Utils.UDValueBool(key: Globs.userLogin) ) {
-            // User Login
-            self.setUserData(uDict: Utils.UDValue(key: Globs.userPayload) as? NSDictionary ?? [:] )
-        }else{
-            // User Not Login
-        }
-        
-        #if DEBUG
-        txtUsername = "user4"
-        txtEmail = "test6@gmail.com"
-        txtPassword = "123456"
-        #endif
-        
-    }
+//    init() {
+//
+//
+//        if( Utils.UDValueBool(key: Globs.userLogin) ) {
+//            // User Login
+//            self.setUserData(uDict: Utils.UDValue(key: Globs.userPayload) as? NSDictionary ?? [:] )
+//        }else{
+//            // User Not Login
+//        }
+//
+//        #if DEBUG
+//        txtUsername = "user4"
+//        txtEmail = "test6@gmail.com"
+//        txtPassword = "123456"
+//        #endif
+//
+//    }
     
     func logout(){
         Utils.UDSET(data: false, key: Globs.userLogin)
@@ -47,11 +47,11 @@ class MainViewModel: ObservableObject {
     func serviceCallLogin(){
         
         
-//        if(!txtEmail.isEmpty) {
-//            self.errorMessage = "please enter valid email address"
-//            self.showError = true
-//            return
-//        }
+        if(!txtEmail.isValidEmail) {
+            self.errorMessage = "please enter valid email address"
+            self.showError = true
+            return
+        }
         
         if(txtPassword.isEmpty) {
             self.errorMessage = "please enter valid password"
@@ -89,11 +89,11 @@ class MainViewModel: ObservableObject {
         }
         
         
-//        if(!txtEmail.isEmpty) {
-//            self.errorMessage = "please enter valid email address"
-//            self.showError = true
-//            return
-//        }
+        if(!txtEmail.isValidEmail) {
+            self.errorMessage = "please enter valid email address"
+            self.showError = true
+            return
+        }
         
         if(txtPassword.isEmpty) {
             self.errorMessage = "please enter valid password"

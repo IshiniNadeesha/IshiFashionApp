@@ -49,6 +49,20 @@
 		59E18DED2BB888B7008160E7 /* TypeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59E18DEC2BB888B7008160E7 /* TypeModel.swift */; };
 		59E18DEF2BB88A57008160E7 /* SectionTitleAll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59E18DEE2BB88A57008160E7 /* SectionTitleAll.swift */; };
 		59E18DF12BB88A89008160E7 /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59E18DF02BB88A89008160E7 /* CategoryCell.swift */; };
+		59E7D8512BB9109400285CD8 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59E7D8502BB9109400285CD8 /* WelcomeView.swift */; };
+		59E7D8542BB940F400285CD8 /* MyCartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59E7D8532BB940F400285CD8 /* MyCartView.swift */; };
+		59E7D8562BB9421F00285CD8 /* CartItemRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59E7D8552BB9421F00285CD8 /* CartItemRow.swift */; };
+		59E7D8582BB9435000285CD8 /* CheckoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59E7D8572BB9435000285CD8 /* CheckoutView.swift */; };
+		59E7D85A2BB9439700285CD8 /* OrderAccpetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59E7D8592BB9439700285CD8 /* OrderAccpetView.swift */; };
+		59E7D85C2BB944A300285CD8 /* DelieryAddressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59E7D85B2BB944A300285CD8 /* DelieryAddressView.swift */; };
+		59E7D85E2BB9451900285CD8 /* PaymentMethodsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59E7D85D2BB9451900285CD8 /* PaymentMethodsView.swift */; };
+		59E7D8602BB9458800285CD8 /* PaymentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59E7D85F2BB9458800285CD8 /* PaymentViewModel.swift */; };
+		59E7D8622BB946FC00285CD8 /* AddPaymentMethodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59E7D8612BB946FC00285CD8 /* AddPaymentMethodView.swift */; };
+		59E7D8642BB9472E00285CD8 /* AddDeliveryAddressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59E7D8632BB9472E00285CD8 /* AddDeliveryAddressView.swift */; };
+		59E7D8662BB9475800285CD8 /* DeliveryAddressViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59E7D8652BB9475800285CD8 /* DeliveryAddressViewModel.swift */; };
+		59E7D8682BB94E7400285CD8 /* PromoCodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59E7D8672BB94E7400285CD8 /* PromoCodeView.swift */; };
+		59E7D86A2BB94E9A00285CD8 /* PromoCodeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59E7D8692BB94E9A00285CD8 /* PromoCodeModel.swift */; };
+		59E7D86C2BB94ED100285CD8 /* PromoCodeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59E7D86B2BB94ED100285CD8 /* PromoCodeViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -95,6 +109,20 @@
 		59E18DEC2BB888B7008160E7 /* TypeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeModel.swift; sourceTree = "<group>"; };
 		59E18DEE2BB88A57008160E7 /* SectionTitleAll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionTitleAll.swift; sourceTree = "<group>"; };
 		59E18DF02BB88A89008160E7 /* CategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
+		59E7D8502BB9109400285CD8 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		59E7D8532BB940F400285CD8 /* MyCartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCartView.swift; sourceTree = "<group>"; };
+		59E7D8552BB9421F00285CD8 /* CartItemRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartItemRow.swift; sourceTree = "<group>"; };
+		59E7D8572BB9435000285CD8 /* CheckoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutView.swift; sourceTree = "<group>"; };
+		59E7D8592BB9439700285CD8 /* OrderAccpetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderAccpetView.swift; sourceTree = "<group>"; };
+		59E7D85B2BB944A300285CD8 /* DelieryAddressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelieryAddressView.swift; sourceTree = "<group>"; };
+		59E7D85D2BB9451900285CD8 /* PaymentMethodsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentMethodsView.swift; sourceTree = "<group>"; };
+		59E7D85F2BB9458800285CD8 /* PaymentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentViewModel.swift; sourceTree = "<group>"; };
+		59E7D8612BB946FC00285CD8 /* AddPaymentMethodView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPaymentMethodView.swift; sourceTree = "<group>"; };
+		59E7D8632BB9472E00285CD8 /* AddDeliveryAddressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddDeliveryAddressView.swift; sourceTree = "<group>"; };
+		59E7D8652BB9475800285CD8 /* DeliveryAddressViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeliveryAddressViewModel.swift; sourceTree = "<group>"; };
+		59E7D8672BB94E7400285CD8 /* PromoCodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromoCodeView.swift; sourceTree = "<group>"; };
+		59E7D8692BB94E9A00285CD8 /* PromoCodeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromoCodeModel.swift; sourceTree = "<group>"; };
+		59E7D86B2BB94ED100285CD8 /* PromoCodeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromoCodeViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,6 +181,7 @@
 		59E18D912BB85799008160E7 /* AppView */ = {
 			isa = PBXGroup;
 			children = (
+				59E7D8522BB940DC00285CD8 /* My Cart */,
 				59E18DC22BB87C55008160E7 /* Explore */,
 				59E18DBB2BB87978008160E7 /* Menu */,
 				59E18D9A2BB86078008160E7 /* UserLogin */,
@@ -171,6 +200,7 @@
 				59E18DE62BB8864D008160E7 /* CartItemModel.swift */,
 				59E18DE82BB88827008160E7 /* ImageModel.swift */,
 				59E18DEC2BB888B7008160E7 /* TypeModel.swift */,
+				59E7D8692BB94E9A00285CD8 /* PromoCodeModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -191,6 +221,9 @@
 				59E18DDC2BB88206008160E7 /* ProductDetailViewModel.swift */,
 				59E18DE02BB88415008160E7 /* CartViewModel.swift */,
 				59E18DEA2BB88880008160E7 /* HomeViewModel.swift */,
+				59E7D85F2BB9458800285CD8 /* PaymentViewModel.swift */,
+				59E7D8652BB9475800285CD8 /* DeliveryAddressViewModel.swift */,
+				59E7D86B2BB94ED100285CD8 /* PromoCodeViewModel.swift */,
 			);
 			path = ModelView;
 			sourceTree = "<group>";
@@ -210,6 +243,7 @@
 				59E18DDA2BB881D7008160E7 /* ProductCell.swift */,
 				59E18DEE2BB88A57008160E7 /* SectionTitleAll.swift */,
 				59E18DF02BB88A89008160E7 /* CategoryCell.swift */,
+				59E7D8552BB9421F00285CD8 /* CartItemRow.swift */,
 			);
 			path = UiCommon;
 			sourceTree = "<group>";
@@ -220,6 +254,7 @@
 				59E18D9B2BB8609C008160E7 /* SignInView.swift */,
 				59E18D9E2BB86106008160E7 /* LoginView.swift */,
 				59E18DA32BB8629D008160E7 /* SignUpView.swift */,
+				59E7D8502BB9109400285CD8 /* WelcomeView.swift */,
 			);
 			path = UserLogin;
 			sourceTree = "<group>";
@@ -252,6 +287,21 @@
 				59E18DC52BB87CB5008160E7 /* ExploreItemsView.swift */,
 			);
 			path = Explore;
+			sourceTree = "<group>";
+		};
+		59E7D8522BB940DC00285CD8 /* My Cart */ = {
+			isa = PBXGroup;
+			children = (
+				59E7D8532BB940F400285CD8 /* MyCartView.swift */,
+				59E7D8572BB9435000285CD8 /* CheckoutView.swift */,
+				59E7D8592BB9439700285CD8 /* OrderAccpetView.swift */,
+				59E7D85B2BB944A300285CD8 /* DelieryAddressView.swift */,
+				59E7D85D2BB9451900285CD8 /* PaymentMethodsView.swift */,
+				59E7D8612BB946FC00285CD8 /* AddPaymentMethodView.swift */,
+				59E7D8632BB9472E00285CD8 /* AddDeliveryAddressView.swift */,
+				59E7D8672BB94E7400285CD8 /* PromoCodeView.swift */,
+			);
+			path = "My Cart";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -338,34 +388,48 @@
 				59E18DCE2BB87ED9008160E7 /* ExploreCategoryCell.swift in Sources */,
 				59E18DE92BB88827008160E7 /* ImageModel.swift in Sources */,
 				59E18DEB2BB88880008160E7 /* HomeViewModel.swift in Sources */,
+				59E7D8542BB940F400285CD8 /* MyCartView.swift in Sources */,
 				59E18DE72BB8864D008160E7 /* CartItemModel.swift in Sources */,
+				59E7D8682BB94E7400285CD8 /* PromoCodeView.swift in Sources */,
 				59E18D9F2BB86106008160E7 /* LoginView.swift in Sources */,
 				59E18DA42BB8629D008160E7 /* SignUpView.swift in Sources */,
 				59E18DCA2BB87DE9008160E7 /* ExploreCategoryModel.swift in Sources */,
 				59E18DEF2BB88A57008160E7 /* SectionTitleAll.swift in Sources */,
 				59E18DA12BB86168008160E7 /* Globs.swift in Sources */,
+				59E7D86C2BB94ED100285CD8 /* PromoCodeViewModel.swift in Sources */,
 				59E18DE12BB88415008160E7 /* CartViewModel.swift in Sources */,
 				59E18DC42BB87C80008160E7 /* ExploreView.swift in Sources */,
 				59E18DED2BB888B7008160E7 /* TypeModel.swift in Sources */,
 				59E18DD52BB880FA008160E7 /* ProductModel.swift in Sources */,
+				59E7D85A2BB9439700285CD8 /* OrderAccpetView.swift in Sources */,
 				59E18D9C2BB8609C008160E7 /* SignInView.swift in Sources */,
 				59E18D842BB84DD3008160E7 /* IshiFashionAppApp.swift in Sources */,
 				59E18DB22BB86755008160E7 /* LineTextField.swift in Sources */,
 				59E18DE32BB884A2008160E7 /* AddressModel.swift in Sources */,
 				59E18DD32BB880D1008160E7 /* ExploreItemViewModel.swift in Sources */,
+				59E7D8582BB9435000285CD8 /* CheckoutView.swift in Sources */,
 				59E18DBF2BB87AAA008160E7 /* MainTabView.swift in Sources */,
+				59E7D86A2BB94E9A00285CD8 /* PromoCodeModel.swift in Sources */,
 				59E18DCC2BB87E49008160E7 /* SearchTextField.swift in Sources */,
 				59E18DD92BB88179008160E7 /* UIKitExtension.swift in Sources */,
 				59E18DE52BB88551008160E7 /* PaymentModel.swift in Sources */,
+				59E7D8642BB9472E00285CD8 /* AddDeliveryAddressView.swift in Sources */,
 				59E18DC82BB87D52008160E7 /* ExploreViewModel.swift in Sources */,
+				59E7D8562BB9421F00285CD8 /* CartItemRow.swift in Sources */,
 				59E18DF12BB88A89008160E7 /* CategoryCell.swift in Sources */,
 				59E18DB42BB86807008160E7 /* UIExtension.swift in Sources */,
 				59E18DB82BB86AC7008160E7 /* UserModel.swift in Sources */,
 				59E18DBD2BB87A6A008160E7 /* HomeView.swift in Sources */,
+				59E7D8662BB9475800285CD8 /* DeliveryAddressViewModel.swift in Sources */,
 				59E18DBA2BB86B18008160E7 /* ServiceCall.swift in Sources */,
+				59E7D85C2BB944A300285CD8 /* DelieryAddressView.swift in Sources */,
+				59E7D85E2BB9451900285CD8 /* PaymentMethodsView.swift in Sources */,
 				59E18DC62BB87CB5008160E7 /* ExploreItemsView.swift in Sources */,
 				59E18DDB2BB881D7008160E7 /* ProductCell.swift in Sources */,
+				59E7D8602BB9458800285CD8 /* PaymentViewModel.swift in Sources */,
+				59E7D8512BB9109400285CD8 /* WelcomeView.swift in Sources */,
 				59E18DB62BB86852008160E7 /* MainViewModel.swift in Sources */,
+				59E7D8622BB946FC00285CD8 /* AddPaymentMethodView.swift in Sources */,
 				59E18DDF2BB8827C008160E7 /* ProductDetailView.swift in Sources */,
 				59E18DDD2BB88206008160E7 /* ProductDetailViewModel.swift in Sources */,
 				59E18DC12BB87B9F008160E7 /* TabButton.swift in Sources */,
@@ -511,7 +575,7 @@
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -545,7 +609,7 @@
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

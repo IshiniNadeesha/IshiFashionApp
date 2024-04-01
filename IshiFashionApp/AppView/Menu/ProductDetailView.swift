@@ -81,7 +81,7 @@ struct ProductDetailView: View {
                             detailVM.addSubQTY(isAdd: true)
                         } label: {
                             
-                            Image( "add_green"  )
+                            Image( "plus"  )
                                 .resizable()
                                 .scaledToFit()
                                 .frame(width: 20, height: 20)

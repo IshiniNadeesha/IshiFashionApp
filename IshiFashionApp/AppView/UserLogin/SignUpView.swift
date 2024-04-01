@@ -32,7 +32,7 @@ struct SignUpView: View {
                         .padding(.bottom, .screenWidth * 0.1)
                     
                     
-                    Text("Sign Up")
+                    Text("SignUp")
                         .font(.customfont(.semibold, fontSize: 26))
                         .foregroundColor(.primaryText)
                         .frame(minWidth: 0, maxWidth: .infinity, alignment: .leading)
@@ -56,7 +56,7 @@ struct SignUpView: View {
                 
                     
                     
-                    RoundButton(title: "Sing Up") {
+                    RoundButton(title: "SingUp") {
                         mainVM.serviceCallSignUp()
                     }
                     .padding(.bottom, .screenWidth * 0.05)
@@ -70,7 +70,7 @@ struct SignUpView: View {
                                 .font(.customfont(.semibold, fontSize: 14))
                                 .foregroundColor(.primaryText)
                             
-                            Text("Sign In")
+                            Text("SignIn")
                                 .font(.customfont(.semibold, fontSize: 14))
                                 .foregroundColor(.primaryApp)
                         }

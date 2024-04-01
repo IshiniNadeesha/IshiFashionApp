@@ -32,7 +32,7 @@ struct LoginView: View {
                     .padding(.bottom, .screenWidth * 0.1)
                 
                 
-                Text("Loging")
+                Text("Login")
                     .font(.customfont(.semibold, fontSize: 26))
                     .foregroundColor(.primaryText)
                     .frame(minWidth: 0, maxWidth: .infinity, alignment: .leading)
@@ -50,7 +50,7 @@ struct LoginView: View {
                 LineSecureField( title: "Password", placholder: "Enter your password", txt: $loginVM.txtPassword, isShowPassword: $loginVM.isShowPassword)
                     .padding(.bottom, .screenWidth * 0.02)
                 
-                RoundButton(title: "Log In") {
+                RoundButton(title: "Login") {
                     loginVM.serviceCallLogin()
                 }
                 .padding(.bottom, .screenWidth * 0.05)

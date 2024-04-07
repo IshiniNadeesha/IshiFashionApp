@@ -1,9 +1,3 @@
-//
-//  CategoryCell.swift
-//  IshiFashionApp
-//
-//  Created by Sandun Bandara on 2024-03-30.
-//
 
 import SwiftUI
 import SDWebImageSwiftUI
@@ -38,11 +32,3 @@ struct CategoryCell: View {
     }
 }
 
-struct CategoryCell_Previews: PreviewProvider {
-    static var previews: some View {
-        CategoryCell(tObj: TypeModel(dict: [ "type_id": 1,
-                                             "type_name": "Pulses",
-                                             "image": "http://192.168.1.3:3001/img/type/202307261610181018aVOpgmY1W1.png",
-                                             "color": "F8A44C"]))
-    }
-}

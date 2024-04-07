@@ -1,9 +1,3 @@
-//
-//  CartItemModel.swift
-//  IshiFashionApp
-//
-//  Created by Sandun Bandara on 2024-03-30.
-//
 
 import SwiftUI
 
@@ -21,7 +15,6 @@ struct CartItemModel:  Identifiable, Equatable {
     var name: String = ""
     var unitName: String = ""
     var unitValue: String = ""
-    var nutritionWeight: String = ""
     var image: String = ""
     var catName: String = ""
     var typeName: String = ""
@@ -50,7 +43,6 @@ struct CartItemModel:  Identifiable, Equatable {
         self.name = dict.value(forKey: "name") as? String ?? ""
         self.unitName = dict.value(forKey: "unit_name") as? String ?? ""
         self.unitValue = dict.value(forKey: "unit_value") as? String ?? ""
-        self.nutritionWeight = dict.value(forKey: "nutrition_weight") as? String ?? ""
         self.image = dict.value(forKey: "image") as? String ?? ""
         self.catName = dict.value(forKey: "cat_name") as? String ?? ""
         self.brandName = dict.value(forKey: "brand_name") as? String ?? ""

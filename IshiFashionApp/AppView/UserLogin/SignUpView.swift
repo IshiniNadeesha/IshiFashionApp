@@ -1,9 +1,4 @@
-//
-//  SignUpView.swift
-//  IshiFashionApp
-//
-//  Created by Sandun Bandara on 2024-03-30.
-//
+
 
 import SwiftUI
 

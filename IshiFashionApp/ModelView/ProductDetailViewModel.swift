@@ -1,9 +1,3 @@
-//
-//  ProductDetailViewModel.swift
-//  IshiFashionApp
-//
-//  Created by Sandun Bandara on 2024-03-30.
-//
 
 import SwiftUI
 
@@ -18,16 +12,12 @@ class ProductDetailViewModel: ObservableObject
     
     @Published var isFav: Bool = false
     @Published var isShowDetail: Bool = false
-    @Published var isShowNutrition: Bool = false
     @Published var qty: Int = 1
     
     func showDetail(){
         isShowDetail = !isShowDetail
     }
     
-    func showNutrition(){
-        isShowNutrition = !isShowNutrition
-    }
     
     func addSubQTY(isAdd: Bool = true) {
         if(isAdd) {

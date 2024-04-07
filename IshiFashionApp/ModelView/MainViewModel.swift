@@ -1,9 +1,4 @@
-//
-//  MainViewModel.swift
-//  IshiFashionApp
-//
-//  Created by Sandun Bandara on 2024-03-30.
-//
+
 
 import SwiftUI
 
@@ -20,23 +15,7 @@ class MainViewModel: ObservableObject {
     @Published var isUserLogin: Bool = false
     @Published var userObj: UserModel = UserModel(dict: [:])
     
-//    init() {
-//
-//
-//        if( Utils.UDValueBool(key: Globs.userLogin) ) {
-//            // User Login
-//            self.setUserData(uDict: Utils.UDValue(key: Globs.userPayload) as? NSDictionary ?? [:] )
-//        }else{
-//            // User Not Login
-//        }
-//
-//        #if DEBUG
-//        txtUsername = "user4"
-//        txtEmail = "test6@gmail.com"
-//        txtPassword = "123456"
-//        #endif
-//
-//    }
+
     
     func logout(){
         Utils.UDSET(data: false, key: Globs.userLogin)

@@ -164,7 +164,6 @@
 				59E18DA72BB86498008160E7 /* Resource */,
 				59E18D992BB85F8D008160E7 /* UiCommon */,
 				59E18D982BB85F80008160E7 /* ModelView */,
-				59E18D972BB85E0F008160E7 /* Common */,
 				59E18D962BB85E04008160E7 /* Model */,
 				59E18D912BB85799008160E7 /* AppView */,
 				59E18D832BB84DD3008160E7 /* IshiFashionAppApp.swift */,
@@ -208,13 +207,6 @@
 				59E7D8692BB94E9A00285CD8 /* PromoCodeModel.swift */,
 			);
 			path = Model;
-			sourceTree = "<group>";
-		};
-		59E18D972BB85E0F008160E7 /* Common */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Common;
 			sourceTree = "<group>";
 		};
 		59E18D982BB85F80008160E7 /* ModelView */ = {

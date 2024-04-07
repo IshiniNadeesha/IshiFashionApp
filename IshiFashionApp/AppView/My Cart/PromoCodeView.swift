@@ -1,9 +1,3 @@
-//
-//  PromoCodeView.swift
-//  IshiFashionApp
-//
-//  Created by Sandun Bandara on 2024-03-31.
-//
 
 import SwiftUI
 
